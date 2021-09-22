@@ -6,11 +6,12 @@
 
 name: Aplicación de Python
 
-on:
-  push:
-    branches: [ $default-branch ]
-  pull_request:
-    branches: [ $default-branch ]
+on: [push]
+# En caso de que se quiera aplicar sobre una rama específica
+#  push:
+#    branches: [ $default-branch ]
+#  pull_request:
+#    branches: [ $default-branch ]
 
 jobs:
   construir:
