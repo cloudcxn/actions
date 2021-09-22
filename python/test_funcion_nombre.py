@@ -11,4 +11,3 @@ class NombresCasoPrueba(unittest.TestCase):
         """Probar si nombres como 'Enrique Bunbury' funcionan."""
         nombre_formateado = get_nombre_formateado('enrique', 'bunbury')
         self.assertEqual(nombre_formateado, 'Enrique Bunbury')
-
